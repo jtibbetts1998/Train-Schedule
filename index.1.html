@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Train scheduler</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
@@ -20,32 +21,42 @@
             </div>
         </div>
 
-        <form>
-            <div class="form-group">
-                <label for="formGroupExampleInput">Train Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+        <div class="card">
+            <div class="card-header">
+                Add Train
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Destination</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+            <div class="card-body">
+
+                <!--Setting up the add train forum along with giving each input its own class and id-->
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Train Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Destination</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">First Train Time</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="HH:">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Frequency</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput">First Train Time</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-            </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Frequency</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
 
         <!-- jQuery-->
         <script src="https://code.jquery.com/jquery.js"></script>
 
         <!-- Link to Moment.js should go here -->
         <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
