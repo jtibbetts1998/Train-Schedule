@@ -9,12 +9,14 @@
 
 // 1. Initialize Firebase
 var config = {
-    apiKey: "AIzaSyA_QypGPkcjPtylRDscf7-HQl8ribnFeIs",
-    authDomain: "time-sheet-55009.firebaseapp.com",
-    databaseURL: "https://time-sheet-55009.firebaseio.com",
-    storageBucket: "time-sheet-55009.appspot.com"
+    apiKey: "AIzaSyBUQBu2ITxpSlKxm5HigDIh_osejd1BroQ",
+    authDomain: "train-scheduler-27a39.firebaseapp.com",
+    databaseURL: "https://train-scheduler-27a39.firebaseio.com",
+    projectId: "train-scheduler-27a39",
+    storageBucket: "",
+    messagingSenderId: "716272877075"
   };
-  
+
   firebase.initializeApp(config);
   
   var database = firebase.database();
