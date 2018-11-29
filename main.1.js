@@ -2,7 +2,7 @@
 var config = {
     apiKey: "AIzaSyBUQBu2ITxpSlKxm5HigDIh_osejd1BroQ",
     authDomain: "train-scheduler-27a39.firebaseapp.com",
-    databaseURL: "https://train-scheduler-27a39.firebaseio.com",
+    databaseURL: "https://train-scheduler-27a39.firebaseio.com/",
     projectId: "train-scheduler-27a39",
     storageBucket: "",
     messagingSenderId: "716272877075"
