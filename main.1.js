@@ -49,7 +49,7 @@ var config = {
   });
   
 // 3. Create Firebase event for adding trains to the database and a row in the html when a user adds an entry
-  database.ref().on("child_added", function(childSnapshot) {
+  database.ref().on("child_added", function(childSnapshot, prevChildKey) {
     console.log(childSnapshot.val());
   
 // Store everything into a variable.
